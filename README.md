@@ -52,9 +52,8 @@ Hit %81 or above accuracy by evaluating with 5-fold cross validation and reporti
 Bonus(es):
 
 We are also interested in finding customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize.
-
 **What makes the customers buy? Tell us which feature we should be focusing more on.** 
-=======
+
 **Background:**
 
 **We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
