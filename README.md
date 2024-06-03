@@ -53,7 +53,7 @@ Bonus(es):
 
 We are also interested in finding customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize.
 
-What makes the customers buy? Tell us which feature we should be focusing more on. Submission Instructions: Project should be implemented with Python Please name your repository on GitHub with this name without exposing your project information: 2rpB77ZllGTkKyBM
+**What makes the customers buy? Tell us which feature we should be focusing more on.** 
 =======
 **Background:**
 
