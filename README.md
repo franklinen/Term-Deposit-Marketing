@@ -1,113 +1,57 @@
-<<<<<<< HEAD
-Background:
+# Term Deposit Marketing
+## Overview
+This project aims to develop a machine learning system for predicting customer subscription to term deposits based on call center data from a European banking institution. The system will improve the success rate of marketing calls and provide interpretability for clients to make informed decisions.
 
-We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
+## Background and Motivation
+We are a small startup specializing in machine learning solutions for the European banking market, tackling challenges like fraud detection, sentiment classification, and customer intention prediction. Our current focus is on building a robust machine learning product that leverages call center data to enhance the effectiveness of direct marketing efforts. Our goal is to create an evolving system that not only delivers high success rates but also offers transparency, helping our clients better understand the factors driving customer decisions.
 
-We are interested in developing a robust machine learning system that leverages information coming from call center data.
+## Goals
+Primary Goal: Predict whether a customer will subscribe to a term deposit (binary classification).
+Success Metric: Achieve 81% or higher accuracy using 5-fold cross-validation.
+Secondary Goals:
+Identify customer segments more likely to purchase the investment product.
+Determine key features that influence customer decisions.
 
-Ultimately, we are looking for ways to improve the success rate for calls made to customers for any product that our clients offer. Towards this goal we are working on designing an ever evolving machine learning product that offers high success outcomes while offering interpretability for our clients to make informed decisions.
+## Datasets
+Source: Direct marketing data from a European banking institution.
+Features:
+age: Age of the customer (numeric)
+job: Type of job (categorical)
+marital: Marital status (categorical)
+education: Education level (categorical)
+default: Credit in default? (binary)
+balance: Average yearly balance, in euros (numeric)
+housing: Has a housing loan? (binary)
+loan: Has a personal loan? (binary)
+contact: Contact communication type (categorical)
+day: Last contact day of the month (numeric)
+month: Last contact month of the year (categorical)
+duration: Last contact duration, in seconds (numeric)
+campaign: Number of contacts during the campaign (numeric)
+Target:
+y: Customer subscription to a term deposit (binary)
 
-Data Description:
+## Milestones
+Data Exploration: Understand the dataset, perform initial cleaning, and visualize key features.
+Model Development: Train and validate machine learning models, aiming for an accuracy of 81% or higher.
+Feature Importance Analysis: Identify which features most strongly influence customer decisions.
+Customer Segmentation: Develop strategies to prioritize customers most likely to subscribe to the product.
+Final Report: Summarize findings, model performance, and provide actionable insights for clients.
 
-The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
 
-age : age of customer (numeric)
 
-job : type of job (categorical)
 
-marital : marital status (categorical)
 
-education (categorical)
 
-default: has credit in default? (binary)
 
-balance: average yearly balance, in euros (numeric)
 
-housing: has a housing loan? (binary)
 
-loan: has personal loan? (binary)
 
-contact: contact communication type (categorical)
 
-day: last contact day of the month (numeric)
 
-month: last contact month of year (categorical)
 
-duration: last contact duration, in seconds (numeric)
 
-campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 
-Output (desired target):
 
-y - has the client subscribed to a term deposit? (binary)
 
-Goal(s):
 
-Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
-
-Success Metric(s):
-
-Hit %81 or above accuracy by evaluating with 5-fold cross validation and reporting the average performance score.
-
-Bonus(es):
-
-We are also interested in finding customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize.
-
-**What makes the customers buy? Tell us which feature we should be focusing more on.** 
-
-**Background:**
-
-**We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
-
-We are interested in developing a robust machine learning system that leverages information coming from call center data.
-
-Ultimately, we are looking for ways to improve the success rate for calls made to customers for any product that our clients offer. Towards this goal we are working on designing an ever evolving machine learning product that offers high success outcomes while offering interpretability for our clients to make informed decisions.**
-
-**Data Description:**
-
-**The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
-
-age : age of customer (numeric)
-
-job : type of job (categorical)
-
-marital : marital status (categorical)
-
-education (categorical)
-
-default: has credit in default? (binary)
-
-balance: average yearly balance, in euros (numeric)
-
-housing: has a housing loan? (binary)
-
-loan: has personal loan? (binary)
-
-contact: contact communication type (categorical)
-
-day: last contact day of the month (numeric)
-
-month: last contact month of year (categorical)
-
-duration: last contact duration, in seconds (numeric)
-
-campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
-
-Output (desired target):
-
-y - has the client subscribed to a term deposit? (binary)
-
-Goal(s):
-
-Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
-
-Success Metric(s):
-
-Hit %81 or above accuracy by evaluating with 5-fold cross validation and reporting the average performance score.
-
-Bonus(es):
-
-We are also interested in finding customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize.
-
-What makes the customers buy? Tell us which feature we should be focusing more on. Submission Instructions: Project should be implemented with Python Please name your repository on GitHub with this name without exposing your project information: 2rpB77ZllGTkKyBM**
->>>>>>> 629825a2357b4f86e68c9a4035b1e01457f6141d
