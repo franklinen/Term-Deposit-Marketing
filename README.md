@@ -29,7 +29,7 @@ We are a small startup specializing in machine learning solutions for the Europe
   - `duration`: Last contact duration, in seconds (numeric)
   - `campaign`: Number of contacts during the campaign (numeric)
 - **Target:**
-  - **y:** Customer subscription to a term deposit (binary)
+  - `y:` Customer subscription to a term deposit (binary)
 
 ## Milestones
 1. **Data Exploration:** Understand the dataset, perform initial cleaning, and visualize key features.
